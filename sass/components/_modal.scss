@@ -1,0 +1,41 @@
+.modal {
+    width: 528px;
+    height: 581px;
+    background-color: var(--whaite--bg-color);
+    box-shadow: 0px 1px 3px var(--shadow-color-12),
+        0px 1px 1px var(--shadow-color-14),
+        0px 2px 1px var(--shadow-color-02);
+    border-radius: 4px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal__btn {
+    height: 30px;
+    width: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    background: var(--whaite--bg-color);
+    border: 1px solid var(--border-btn-01);
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+    @include transition;
+    
+    &:hover,
+    &:focus {
+        fill: var(--accent-txt-color);
+        box-shadow: 0px 1px 3px var(--shadow-color-12),
+            0px 1px 1px var(--shadow-color-14),
+            0px 2px 1px var(--shadow-color-02);
+            @include transition ($transition-property: box-shadow);
+        }
+}

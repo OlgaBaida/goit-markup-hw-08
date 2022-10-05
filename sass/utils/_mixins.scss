@@ -1,0 +1,17 @@
+@mixin section ($padding-top:94px, $padding-bottom:94px) {
+   padding-top: $padding-top;
+   padding-bottom: $padding-bottom;  
+}
+
+@mixin fonts($fw:400, $fs:14px, $ls:0.03em) {
+   font-weight:$fw;
+   font-size: $fs;
+   letter-spacing: 0.03em;
+}
+@mixin transition ($transition-property: color, $transition-duration: 250ms, $transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1))
+{
+   transition-property: $transition-property;
+   transition-duration: $transition-duration;
+   transition-timing-function:$transition-timing-function;
+   
+}

@@ -1,0 +1,26 @@
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.no-padding {
+    padding-top: 0px;
+}
+.list {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+.link {
+    text-decoration: none;
+}
+.item {
+    position: relative;
+}

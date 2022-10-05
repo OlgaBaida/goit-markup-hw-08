@@ -1,0 +1,26 @@
+.work {
+    @include section ($padding-top:0px);
+    
+}
+.work__item:not(:last-child) {
+    margin-right: 30px;
+}
+.work__box {
+    position: relative;
+}
+.work__txt {
+    width: 370px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include fonts($fw:700);
+    line-height: calc(16 / 14);
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--whaite-txt-color);
+    background-color: var(--work-txt-bg);
+
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,23 @@
+.features {
+    @include section;
+}
+.features__item:not(:last-child) {
+    margin-right: 30px;
+}
+.features__box-icons {
+    background-color: var(--section-bg-color);
+    padding: 25px 100px;
+    justify-items: center;
+    margin-bottom: 30px;
+}
+.features__title {
+    color: var(--primery-txt-color);
+    @include fonts($fw: 700);
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.features__text {
+    color: var(--secondary-txt-color);
+    line-height: calc(24 / 14);
+}

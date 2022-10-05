@@ -1,0 +1,19 @@
+.subscription__input {
+    color: var(--whaite-txt-color);
+    height: 50px;
+    width: 358px;
+    padding-left: 10px;
+    border: 1px solid var(--input-border-light);
+    border-radius: 4px;
+    background-color: inherit;
+    margin-right: 10px;
+}
+.subscription__input::placeholder {
+    @include fonts($fs: 16px);
+    line-height: calc(20/16);
+    color: var(--input-placeholder);
+}
+.subscription__icon {
+    fill: var(--whaite--bg-color);
+    margin-right: 28px;
+}

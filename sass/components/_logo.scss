@@ -1,0 +1,13 @@
+.logo {
+    color: var(--accent-txt-color);
+    font-family: var(--secondary-font);
+    font-style: normal;
+    @include fonts($fw:700, $fs: 26px);
+    line-height: 1.19;
+}
+.logo__dark {
+    color: var(--black-bg-color);
+}
+.logo__light {
+    color: var(--whaite--bg-color);
+}

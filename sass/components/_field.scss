@@ -1,0 +1,46 @@
+.field__label {
+    margin-bottom: 4px;
+    @include fonts($fs: 12px, $ls: 0.01em);
+    line-height: calc(14/12);
+    color: var(--secondary-txt-color);
+}
+.field__input {
+    margin-top: 4px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--input-border);
+    padding-left: 42px;
+    outline: transparent;
+    border-radius: 4px;
+
+    &:focus {
+        border: 1px solid var(--input-hover);
+        @include transition ($transition-property: border-color);
+    }
+}
+.field__icon {
+    position: absolute;
+    bottom: 11px;
+    left: 12px;
+}
+.field__input:focus+.field__icon {
+    fill: var(--input-hover);
+    @include transition ($transition-property: fill);
+}
+.field__textarea {
+    margin-top: 4px;
+    width: 100%;
+    height: 120px;
+    border: 1px solid var(--input-border);
+    padding: 12px;
+    border-radius: 4px;
+    resize: none;
+    outline: transparent;
+    @include fonts($fs: 12px, $ls: 0.01em);
+    line-height: calc(14/12);
+    @include transition;
+}
+
+.field__textarea:focus {
+    border: 1px solid var(--input-hover);
+}

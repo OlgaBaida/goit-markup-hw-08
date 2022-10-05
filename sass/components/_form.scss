@@ -1,0 +1,42 @@
+.form {
+    padding: 40px;
+}
+.form__title {
+    display: block;
+    text-align: center;
+    margin-bottom: 12px;
+    @include fonts($fw:700, $fs: 20px);
+    line-height: calc(23/20);
+    color: var(--primery-txt-color);
+}
+.form__grup {
+    display: block;
+    margin-bottom: 20px;
+}
+.form__field {
+    display: block;
+    position: relative;
+    margin-bottom: 10px;
+    @include transition;
+}
+.form__argeement {
+    display: flex;
+    padding-left: 12px;
+    gap: 7px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.form__subscription {
+    display: flex;
+}
+.form__btn--icon {
+    display: flex;
+    justify-content: center;
+    color: var(--whaite--bg-color);
+    padding-left: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    gap: 10px;
+}

@@ -1,0 +1,26 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--secondary-bg-color);
+}
+.footer__wrap {
+    display: flex;
+    align-items: baseline;
+}
+.footer__box {
+    margin-right: 70px;
+}
+.futer__socials {
+    display: block;
+}
+.footer__form {
+    margin-left: auto;
+}
+.footer__title {
+    display: block;
+    @include fonts($fw:700);
+    line-height: calc(16/14);
+    text-transform: uppercase;
+    color: var(--whaite-txt-color);
+    margin-bottom: 20px;
+}

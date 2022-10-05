@@ -1,0 +1,31 @@
+.adress__box {
+    margin-top: 20px;
+}
+.adress__list {
+    display: block;
+}
+.adress__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+.adress__link {
+    color: var(--whaite-txt-color);
+    font-style: normal;
+    line-height: 1.7;
+    @include transition;
+    &:hover
+     {
+        color: var(--accent-txt-color);
+    }
+}
+.adress__contact {
+
+    color: var(--whaite--bg-color-60);
+    font-style: normal;
+    line-height: 1.7;
+    @include transition; 
+
+    &:hover {
+        color: var(--accent-txt-color);
+    }
+
+}

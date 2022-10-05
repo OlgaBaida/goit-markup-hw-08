@@ -1,0 +1,7 @@
+body {
+  @include fonts;
+  background-color: var(--whaite--bg-color);
+  color: var(--primery-txt-color);
+  font-family: var(--primery-font);
+  letter-spacing: 0.03em;
+}

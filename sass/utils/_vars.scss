@@ -1,0 +1,43 @@
+:root {
+    /* bg-color*/
+    --section-bg-color: #f5f4fa;
+    --whaite--bg-color: #ffffff;
+    --black-bg-color: #000000;
+    --secondary-bg-btn: #188ce8;
+    --secondary-bg-color: #2f303a;
+    --whaite--bg-color-60: rgba(255, 255, 255, 0.6);
+    --gradient-color: rgba(47, 48, 58, 0.4);
+    --overley-bg: rgba(33, 150, 243, 0.9);
+    --backdrop-bg: rgba(0, 0, 0, 0.2);
+    --work-txt-bg: rgba(47, 48, 58, 0.8);
+
+    /*txt-color*/
+    --primery-txt-color: #212121;
+    --secondary-txt-color: #757575;
+    --accent-txt-color: #2196f3;
+    --whaite-txt-color: #ffffff;
+    --black-txt-color: #000000;
+
+    /*other-color*/
+    --line-color: #ececec;
+    --border-color: #eeeeee;
+    --social-icon: #afb1b8;
+    --social_dark: rgba(255, 255, 255, 0.1);
+    --border-btn-01: rgba(0, 0, 0, 0.1);
+    --icon-hover: #188CE8;
+    --btn-bg-hover: #188CE8;
+    --input-border: rgba(33, 33, 33, 0.2);
+    --input-hover: #2196F3;
+    --input-border-light: rgba(255, 255, 255, 0.3);
+    --input-placeholder: rgba(255, 255, 255, 0.6);
+
+    /*shadow*/
+    --primery-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --shadow-color-08: rgba(0, 0, 0, 0.08);
+    --shadow-color-12: rgba(0, 0, 0, 0.12);
+    --shadow-color-15: rgba(0, 0, 0, 0.15);
+    --shadow-color-14: rgba(0, 0, 0, 0.14);
+    --shadow-color-02: rgba(0, 0, 0, 0.2);
+    --shadow-color-01: rgba(0, 0, 0, 0.1);
+}
