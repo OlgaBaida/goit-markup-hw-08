@@ -23,7 +23,6 @@
     @media screen and (min-width: 768px) {
         max-width: 354px;
         padding: 25px 142px;
-      
     }
     @media screen and (min-width: 1200px){
         max-width: 270px;
@@ -39,20 +38,16 @@
     text-align: center;
     @media screen and (min-width: 768px) {
         text-align: start;
-      
     }
     @media screen and (min-width: 1200px){
-        text-align: start;
-        
+        text-align: start; 
     }
-
 } 
 .features__text {
     color: var(--secondary-txt-color);
     line-height: calc(24 / 14);
 
  @media screen and (min-width: 768px) {
-    max-width: 354px;
-      
+    max-width: 354px; 
     }
 }

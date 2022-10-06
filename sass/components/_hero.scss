@@ -1,30 +1,43 @@
 .hero {
-
-  max-width: 1600px;
-  height: 600px;
+  max-width: 480px;
+  max-height: 400px; 
   margin-left: auto;
   margin-right: auto;
-  padding: 200px 0;
+  padding-top: 118px;
+  padding-bottom: 118px;
+  padding-left: 204;
+  padding-right: 204;
   background-repeat: no-repeat;
-
   background-color: var(--secondary-bg-color);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/page-1/hero-1/hero-backgraund.jpg);
   background-position: center;
-  background-size: cover;
-}
+  background-size: cover;background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/page-1/hero-1/hero-backgraund.jpg);
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    }
+  @media screen and (min-width: 1200px) {
+    max-width: 1600px;
+    height: 600px;
+    padding: 200px, 0;} 
+  }
+  
 .hero__title {
-  width: 696px;
+  max-width: 360px;
   margin: 0 auto;
   margin-bottom: 30px;
-
-  color: var(--whaite-txt-color);
-  @include fonts($fw: 900, $fs: 44px, $ls: 0.06em);
-  line-height: 1.36;
+  color: var(--whaite--bg-color);
+  @include fonts($fw: 900, $fs: 26px, $ls: 0.06em);
+  line-height: calc(42/26);
   text-align: center;
   text-transform: uppercase;
+  @media screen and (min-width: 1200px) {
+    @include fonts($fw: 900, $fs: 44px, $ls: 0.06em);
+    line-height: calc(60/44);
+  }
 }
 .hero__btn{
 margin: 0 auto;
 padding: 10px 32px;
+
+
 }
