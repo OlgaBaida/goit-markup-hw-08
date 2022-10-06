@@ -1,6 +1,6 @@
-@mixin section ($padding-top:94px, $padding-bottom:94px) {
-   padding-top: $padding-top;
-   padding-bottom: $padding-bottom;  
+@mixin section ($padding: 60px) {
+   padding-top: $padding;
+   padding-bottom: $padding;  
 }
 
 @mixin fonts($fw:400, $fs:14px, $ls:0.03em) {
