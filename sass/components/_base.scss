@@ -16,7 +16,13 @@ img {
     padding-left: 0;
     margin: 0;
     list-style: none;
-    display: flex;
+    @media screen and (max-width: 768px) { 
+        display: flex;
+        flex-wrap: wrap;
+    }
+    @media screen and (min-width: 1200px) {
+        display: flex;
+    }
 }
 .link {
     text-decoration: none;
