@@ -13,20 +13,41 @@
   background-position: center;
   background-size: cover;
   background-image: 
+  /* mobail */
     linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../../images/page-1/hero-1/img_sm-@1x.jpg);
+    url(../images/page-1/hero-1/img_sm-@1x.jpg);
     @media (min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
         background-image: 
           linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-          url(../../images/page-1/hero-1/img_sm-@2x.jpg);}
-    @media screen and (min-width: 768px) {
+          url(../images/page-1/hero-1/img_sm-@2x.jpg);}
+    @media screen and (min-width:481px) {
             max-width: 768px;
-            }
-    @media screen and (min-width: 1200px) {
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                url(../images/page-1/hero-1/img_md-@1x.jpg);
+                @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+                  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                    url(../images/page-1/hero-1/img_md-@2x.jpg);}
+                }
+    @media screen and (min-width: 769px) {
             max-width: 1600px;
             height: 600px;
-            padding: 200px, 0;} 
+            padding: 200px, 0;
+              background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                url(../images/page-1/hero-1/Img_lg-@1x.jpg);
+              @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+                background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                  url(../images/page-1/hero-1/Img_lg-@2x.jpg);
+              }
+            } 
 }  
+// Tablet screen
+/* @media screen and (min-width: 481px) {
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero/bg-img_md.jpg);
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../images/hero/bg-img_md@2x.jpg); */
 .hero__title {
   max-width: 360px;
   margin: 0 auto;
