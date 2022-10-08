@@ -27,8 +27,9 @@
     align-items: center;
     justify-content: center;
 }
+
 .form__subscription {
-    display: flex;
+    display: block;
 }
 .form__btn--icon {
     display: flex;
@@ -39,4 +40,10 @@
     padding-bottom: 10px;
     border: none;
     gap: 10px;
+    margin-left: 140px;
+    margin-right: 140px;
+    @media screen and (min-width:1200px) {
+       
+        margin:0;
+    }
 }

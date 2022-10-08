@@ -1,12 +1,29 @@
+
+.subscription__title {
+    display: block;
+    @include fonts($fw:700);
+    line-height: calc(16/14);
+    text-transform: uppercase;
+    color: var(--whaite-txt-color);
+    margin-bottom: 20px;
+    text-align: center;
+    @media screen and (min-width: 1200px) {
+        text-align: start;
+       }
+}
 .subscription__input {
     color: var(--whaite-txt-color);
     height: 50px;
-    width: 358px;
+    width: 450px;
     padding-left: 10px;
     border: 1px solid var(--input-border-light);
     border-radius: 4px;
     background-color: inherit;
-    margin-right: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+    @media screen and (min-width: 1200px) {
+     width: 358px;    
+    }
 }
 .subscription__input::placeholder {
     @include fonts($fs: 16px);

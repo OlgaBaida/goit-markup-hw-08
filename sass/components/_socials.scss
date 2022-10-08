@@ -27,8 +27,13 @@
 .social__link--dark {
     background-color: var(--social_dark);
     color: var(--whaite--bg-color);
+    margin-bottom: 60px;
+    @media screen and (min-width: 768px){
+        justify-content: center;
+    }
 }
 .socials__title {
+    text-align: center;
     margin-bottom: 20px;
     @include fonts($fw:700);
     line-height: calc(16 / 14);

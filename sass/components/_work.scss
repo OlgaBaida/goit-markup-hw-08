@@ -1,6 +1,9 @@
 .work {
-    @include section ($padding-top:0px);
-    
+    display: none;
+    @media screen and (min-width: 1200px) {
+     display: block;  
+     @include section (0, 94px);  
+    }
 }
 .work__item:not(:last-child) {
     margin-right: 30px;

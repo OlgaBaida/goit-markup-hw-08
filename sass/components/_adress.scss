@@ -1,28 +1,44 @@
 .adress__box {
-    margin-top: 20px;
+   width: 232px;
+   margin-top: 20px;
+   text-align: center;
+   @media screen and (min-width: 1200px){
+        text-align: start;
+        margin-right: 70px ;
+   }
+ 
+    
 }
 .adress__list {
     display: block;
+    margin-bottom: 60px;
 }
-.adress__item:not(:last-child) {
+@media screen and (min-width: 1200px) {
+    .adress__item:not(:last-child) {
     margin-bottom: 9px;
 }
+}
+
 .adress__link {
+    @include fonts;
     color: var(--whaite-txt-color);
     font-style: normal;
-    line-height: 1.7;
+    line-height: calc(24/14);
     @include transition;
     &:hover
      {
         color: var(--accent-txt-color);
     }
+    
 }
 .adress__contact {
-
+    text-align: center;
     color: var(--whaite--bg-color-60);
-    font-style: normal;
-    line-height: 1.7;
+    font-style: normal; 
     @include transition; 
+    line-height: calc(24/14);
+ 
+  
 
     &:hover {
         color: var(--accent-txt-color);

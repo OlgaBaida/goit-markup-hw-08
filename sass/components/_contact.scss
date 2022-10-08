@@ -1,6 +1,10 @@
 .contact {
-    display: flex;
-    margin-left: auto;
+    display: none;
+    @media screen and ( min-width:768px ) {
+      display: flex;  
+      margin-left: auto;
+    }
+    
 }
 .contact .item+.item {
     margin-left: 50px;

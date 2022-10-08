@@ -1,6 +1,6 @@
 .modal {
-    width: 528px;
-    height: 581px;
+    width: 450px;
+    height: 609px;
     background-color: var(--whaite--bg-color);
     box-shadow: 0px 1px 3px var(--shadow-color-12),
         0px 1px 1px var(--shadow-color-14),
@@ -11,6 +11,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    @media screen and (min-width:1200px) {
+        width: 528px;
+        height: 581px; 
+    }
 }
 
 .modal__btn {

@@ -1,27 +1,30 @@
 .clients {
-    @include section;
+    @include section; 
 }
+
 .clients__list {
     display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
     gap: 30px;
 }
 .clients__link {
+    width: 210px;
+    height: 92px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     border: 1px solid var(--social-icon);
     border-radius: 4px;
-    width: 170px;
-    height: 92px;
-
     color: var(--social-icon);
     @include transition;
-    
     &:hover,
     &:focus {
         border: 1px solid var(--accent-txt-color);
-        color: var(--accent-txt-color);
-    }
+        color: var(--accent-txt-color);}
+    @media screen and (min-width: 1200px) {
+        width: 170px; }
+    
 }
 .clients__icon {
     @include transition;

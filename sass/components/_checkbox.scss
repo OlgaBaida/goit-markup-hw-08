@@ -17,8 +17,13 @@
     border: none;
 }
 .checkbox__desc {
-    @include fonts;
-    line-height: calc(24/14);
+    @include fonts ($fs: 12px);
+    line-height: calc(14/12);
+    @media screen and (min-width:1200px ) {
+        @include fonts; 
+        line-height: calc(24/14)   
+    }
+    
     color: var(--secondary-txt-color);
 }
 .checkbox__link {
