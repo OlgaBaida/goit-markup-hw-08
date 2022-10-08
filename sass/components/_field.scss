@@ -1,7 +1,7 @@
 .field__label {
     margin-bottom: 4px;
     @include fonts($fs: 12px, $ls: 0.01em);
-    line-height: calc(14/12);
+    line-height: calc(14 / 12);
     color: var(--secondary-txt-color);
 }
 .field__input {
@@ -37,10 +37,9 @@
     resize: none;
     outline: transparent;
     @include fonts($fs: 12px, $ls: 0.01em);
-    line-height: calc(14/12);
+    line-height: calc(14 / 12);
     @include transition;
 }
-
 .field__textarea:focus {
     border: 1px solid var(--input-hover);
 }

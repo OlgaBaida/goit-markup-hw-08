@@ -1,7 +1,6 @@
 .clients {
     @include section; 
 }
-
 .clients__list {
     display: flex;
     flex-wrap: wrap;

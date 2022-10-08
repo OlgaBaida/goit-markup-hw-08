@@ -32,7 +32,7 @@
 .features__title {
      color: var(--primery-txt-color);
     @include fonts($fw: 700);
-    line-height: calc(16/14);
+    line-height: calc(16 / 14);
     text-transform: uppercase;
     margin-bottom: 10px;
     text-align: center;

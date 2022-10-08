@@ -45,7 +45,7 @@ background-color: transparent;
 .menu__list {
    margin-bottom: auto;
    font-style: normal;
-   line-height: calc(47/40);
+   line-height: calc(47 / 40);
    
    padding-left: 40px;
    padding-top: 48px;
@@ -75,14 +75,13 @@ background-color: transparent;
 }
 .menu__tel {
    @include fonts($fw:500, $fs:34px, $ls:0.02em) ;
-line-height:calc(40/34);
+line-height:calc(40 / 34);
 color: var( --accent-txt-color);
-line-height: calc(40/34);
 
 }
 .menu__mail{
 @include fonts($fw:500, $fs:24px, $ls:0.02em); 
-line-height: calc(28/24);
+line-height: calc(28 / 24);
 color: #757575;
 }
 .menu__social {
@@ -92,12 +91,12 @@ color: #757575;
 }
 .soc__link{ 
     @include fonts($fw:500, $fs:18px, $ls:0.02em);  
-   line-height: calc(22/18);
+   line-height: calc(22 / 18);
    color: #2196F3;
    padding-right: 10px;  
    padding-left: 10px;
-   }
- .soc__item:not(:last-child) { 
+}
+.soc__item:not(:last-child) { 
    border-right: 1px solid rgba(33, 33, 33, 0.2);  
 }  
   

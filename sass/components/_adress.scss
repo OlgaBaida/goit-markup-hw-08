@@ -6,8 +6,6 @@
         text-align: start;
         margin-right: 70px ;
    }
- 
-    
 }
 .adress__list {
     display: block;
@@ -15,33 +13,24 @@
 }
 @media screen and (min-width: 1200px) {
     .adress__item:not(:last-child) {
-    margin-bottom: 9px;
+    margin-bottom: 9px;}
 }
-}
-
 .adress__link {
     @include fonts;
     color: var(--whaite-txt-color);
     font-style: normal;
-    line-height: calc(24/14);
+    line-height: calc(24 / 14);
     @include transition;
     &:hover
-     {
-        color: var(--accent-txt-color);
-    }
-    
+     {color: var(--accent-txt-color);}
 }
 .adress__contact {
     text-align: center;
     color: var(--whaite--bg-color-60);
     font-style: normal; 
     @include transition; 
-    line-height: calc(24/14);
- 
-  
-
+    line-height: calc(24 / 14);
     &:hover {
         color: var(--accent-txt-color);
     }
-
 }

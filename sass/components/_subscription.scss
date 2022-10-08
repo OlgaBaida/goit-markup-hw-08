@@ -2,7 +2,7 @@
 .subscription__title {
     display: block;
     @include fonts($fw:700);
-    line-height: calc(16/14);
+    line-height: calc(16 / 14);
     text-transform: uppercase;
     color: var(--whaite-txt-color);
     margin-bottom: 20px;
@@ -27,7 +27,7 @@
 }
 .subscription__input::placeholder {
     @include fonts($fs: 16px);
-    line-height: calc(20/16);
+    line-height: calc(20 / 16);
     color: var(--input-placeholder);
 }
 .subscription__icon {

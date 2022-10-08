@@ -6,7 +6,7 @@
     text-align: center;
     margin-bottom: 12px;
     @include fonts($fw:700, $fs: 20px);
-    line-height: calc(23/20);
+    line-height: calc(23 / 20);
     color: var(--primery-txt-color);
 }
 .form__grup {
@@ -43,7 +43,5 @@
     margin-left: 140px;
     margin-right: 140px;
     @media screen and (min-width:1200px) {
-       
-        margin:0;
-    }
+        margin:0;}
 }
