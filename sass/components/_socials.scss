@@ -14,7 +14,6 @@
     border-radius: 50%;
     @include transition; 
     @include transition ($transition-property:background-color);
-    
     &:hover,
     &:focus {
         background-color: var(--accent-txt-color);
