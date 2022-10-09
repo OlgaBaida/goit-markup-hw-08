@@ -160,7 +160,12 @@ img {
 }
 
 .header__logo {
-  margin-right: 93px;
+  margin-right: 87px;
+}
+@media screen and (min-width: 1200px) {
+  .header__logo {
+    margin-right: 93px;
+  }
 }
 
 .logo {
@@ -250,9 +255,11 @@ img {
             justify-content: center;
   }
 }
-
-.contact__item {
-  padding-bottom: 0;
+@media screen and (min-width: 1200px) {
+  .contact {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -380,7 +387,7 @@ img {
   padding-bottom: 64px;
 }
 
-.contact__item {
+.contacts__items {
   padding-bottom: 32px;
 }
 

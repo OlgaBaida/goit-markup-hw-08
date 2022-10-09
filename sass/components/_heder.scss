@@ -6,5 +6,10 @@
     align-items: center;
 }
 .header__logo {
-    margin-right: 93px;
+    margin-right: 87px;
+    @media screen and (min-width:1200px) {
+        margin-right: 93px;
+    }
+    
+
 }

@@ -1,21 +1,19 @@
 .contact {
     display: none;
     @media screen and ( min-width:768px ) {
-      display: flex;  
+    display: flex;  
       margin-left: auto;
       align-items: center;
-       justify-content: center;
-       
-}
-    }  
- .contact__item {
-  padding-bottom: 0;} 
-
+    justify-content: center;}
+    @media screen and (min-width:1200px) {
+      flex-wrap: nowrap;
+      
+    }
+}  
 @media screen and ( min-width:1200px ){
   .contact .item+.item {
     margin-left: 50px;} 
 }
-
 
 .contact__link {
     display: flex;

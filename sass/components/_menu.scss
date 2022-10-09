@@ -70,8 +70,8 @@ background-color: transparent;
    padding-left: 40px;
    padding-bottom: 64px;
 }
-.contact__item {
-  padding-bottom: 32px; 
+.contacts__items {
+   padding-bottom:32px ;
 }
 .menu__tel {
    @include fonts($fw:500, $fs:34px, $ls:0.02em) ;
@@ -79,6 +79,7 @@ line-height:calc(40 / 34);
 color: var( --accent-txt-color);
 
 }
+
 .menu__mail{
 @include fonts($fw:500, $fs:24px, $ls:0.02em); 
 line-height: calc(28 / 24);
