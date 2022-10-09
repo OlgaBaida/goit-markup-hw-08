@@ -12,6 +12,7 @@
        }
 }
 .subscription__input {
+    
     color: var(--whaite-txt-color);
     height: 50px;
     width: 450px;
@@ -21,8 +22,13 @@
     background-color: inherit;
     margin-bottom: 20px;
     justify-content: center;
+    /* @media screen and (min-width: 768px) {
+        width: 450px;
+    } */
     @media screen and (min-width: 1200px) {
-     width: 358px;    
+     width: 358px;  
+     margin-bottom: 0px;
+     margin-right: 12px;
     }
 }
 .subscription__input::placeholder {

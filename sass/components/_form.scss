@@ -29,7 +29,10 @@
 }
 
 .form__subscription {
-    display: block;
+    @media screen and (min-width:1200px ){
+         display: flex;
+    }
+   
 }
 .form__btn--icon {
     display: flex;
