@@ -17,10 +17,8 @@
         flex-wrap: nowrap;
         text-align: start;}
 }
-    
 .footer__box {
-    padding-left: 124px;  
-    padding-right: 124px;
+    
     @media screen and (min-width: 768px) {
         padding-left: 76px;  
         padding-right: 165px;
@@ -32,6 +30,7 @@
 }   
 .futer__socials {
     display: block;
+    margin-bottom: 60px;
 }
 @media screen and (min-width:768){ 
     .footer__form {
@@ -40,11 +39,7 @@
 }
 .footer__form {
     padding: 0;
-    @media screen and (min-width: 768px) {
-        max-width: 768px;
-    padding-left: 166px;  
-    padding-right: 152px;
-    }
+    margin: 0 auto;
     @media screen and (min-width: 1200px) {
         padding: 0; 
         margin-left: auto;

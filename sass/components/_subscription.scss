@@ -15,16 +15,16 @@
     
     color: var(--whaite-txt-color);
     height: 50px;
-    width: 450px;
+    width: 100%;
     padding-left: 10px;
     border: 1px solid var(--input-border-light);
     border-radius: 4px;
     background-color: inherit;
     margin-bottom: 20px;
     justify-content: center;
-    /* @media screen and (min-width: 768px) {
+     @media screen and (min-width: 768px) {
         width: 450px;
-    } */
+    } 
     @media screen and (min-width: 1200px) {
      width: 358px;  
      margin-bottom: 0px;

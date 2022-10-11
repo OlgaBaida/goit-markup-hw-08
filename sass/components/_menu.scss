@@ -79,7 +79,6 @@ line-height:calc(40 / 34);
 color: var( --accent-txt-color);
 
 }
-
 .menu__mail{
 @include fonts($fw:500, $fs:24px, $ls:0.02em); 
 line-height: calc(28 / 24);
@@ -89,8 +88,13 @@ color: #757575;
    display: flex;
    padding-left: 40px;
    padding-bottom: 48px;
+   flex-wrap: wrap;
+   row-gap: 10px;
 }
 .soc__link{ 
+   
+   flex-wrap: wrap;
+   row-gap: 10px;
     @include fonts($fw:500, $fs:18px, $ls:0.02em);  
    line-height: calc(22 / 18);
    color: #2196F3;
