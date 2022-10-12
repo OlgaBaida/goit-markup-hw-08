@@ -648,7 +648,7 @@ img {
 }
 
 .modal {
-  width: 450px;
+  width: 300px;
   height: 609px;
   background-color: var(--whaite--bg-color);
   -webkit-box-shadow: 0px 1px 3px var(--shadow-color-12), 0px 1px 1px var(--shadow-color-14), 0px 2px 1px var(--shadow-color-02);
@@ -659,6 +659,11 @@ img {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+@media screen and (min-width: 480px) {
+  .modal {
+    width: 450px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .modal {
@@ -716,10 +721,18 @@ img {
   text-align: center;
   margin-bottom: 12px;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 0.03em;
   line-height: 1.15;
   color: var(--primery-txt-color);
+}
+@media screen and (min-width: 480px) {
+  .form__title {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+  }
 }
 
 .form__grup {
