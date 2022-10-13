@@ -10,10 +10,10 @@
     @media screen and (min-width: 768px) {
         display: flex; 
         flex-wrap: wrap;
+        align-items: baseline; 
     }
     @media screen and (min-width: 1200px) { 
         display: flex; 
-        align-items: baseline; 
         flex-wrap: nowrap;
         text-align: start;}
 }
@@ -31,12 +31,10 @@
 .futer__socials {
     display: block;
     margin-bottom: 60px;
+    margin: 0 auto;
+
 }
-@media screen and (min-width:768){ 
-    .footer__form {
-    margin-left: auto; 
-}
-}
+
 .footer__form {
     padding: 0;
     margin: 0 auto;
